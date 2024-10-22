@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;  
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff
+}
+
+.App {
+  display: flex;  
+  flex-direction: row;  
+  align-items: stretch; 
+  min-height: 100vh; 
+  background-color: #000;  
+  position: relative;  
+}
+
+.content {
+  flex-grow: 1;  
+  display: flex;  
+  position: relative;
+  overflow-y: auto; 
+}
+
+#map {
+  flex-grow: 1;
+  height: 80vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  overflow: hidden;
+  margin-top: 110px;
+  transition: margin-right 0.4s ease-in-out; 
+}
+
+.map-shrink {
+  margin-right: 200px; 
+}
+
+.map-expand {
+  margin-right: 0px; 
+}
+
+.stats-panel {
+  width: 280px;
+  padding: 3px;
+  margin-right: 5px;  
+  color: white; 
+  height: calc(100vh - 10px);  
+  position: fixed;  
+  top: 10px;  
+  right: 0;
+}
+

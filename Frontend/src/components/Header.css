@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    background-color: #000;
+    color: #40E0D0;
+    padding: 6px 20px;
+    font-size: 26px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid red;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 600px;
+    margin-left: -15px;
+}
+
+.title {
+    position: absolute; 
+    width: 100%; 
+    text-align: center; 
+    left: 0;
+}
